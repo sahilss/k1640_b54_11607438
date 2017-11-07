@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Clapsol_Music</title>
+	<link rel="icon" type="image/jpg" href="../images/Title_icon.PNG" />
+	<style type="text/css"> 	</style>
+	<script type="text/javascript">		</script>			
+</head>
+
+
+<body onload="dateTimeDisplay();">
+	<header>
+		<table class="Header_Top" id="header_top_left">
+								<!--class="Header_Top" used in css file home_header_top-->
+			<tr>
+				<th>
+					<div class = "DateTime_Display">
+												<!--class = "DateTime_Display" used in css file home_header_top-->
+						<link rel = "stylesheet" href ="../style/home_header_top.css" >
+						<script type="text/javascript" src = "../jScript/date-time_display.js" > 
+						</script>
+						<div id ="clock_display" class="D-T_On_Screen">
+												<!--id="clockDisplay" used in js file date-time_display-->
+						</div>
+					</div>
+				</th>
+			</tr>
+		</table>
+	
+		
+		
+		
+		
+		
+		<table class="Header_Top" id="header_top_right">
+								<!--class="Header_Top" used in css file home_header_top -->
+			<tr>
+				<th>
+					<a target="_blank" href="https://www.youtube.com/user/TheNewsTime">
+						<img src="../images/yt_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://plus.google.com/TheNewsTime">
+						<img src="../images/g+_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://twitter.com/TheNewsTime">
+						<img src="../images/twt_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://www.facebook.com/TheNewsTime">
+						<img src="../images/fb_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<button class="Active_Button" id="sub_button" onclick="window.location.href='subscribe.html'" >
+							<b><i><h3> Subscribe Now </h3></i></b>
+					</button>
+				</th>
+				<th>
+					<button class="Active_Button" id="search_button" onclick="window.location.href='login.html'" >
+							<b><i><h3>Sign In</h3></i></b>
+					</button>
+				</th>
+			</tr>
+		</table>
+		
+		
+		
+		<table class="Header_Bottom" id="header_bottom">
+							<!--class="Header_Bottom used in css file home_header_bottom -->
+				<link rel = "stylesheet" href ="../style/home_header_bottom.css" >
+							<!-- Linking & Using css file home_header_bottom -->
+			<script type="text/javascript" src = "../jScript/header_navigation.js">
+							/* using js file date-time_display */
+			</script>
+			<tr>
+				<th>
+					<div class="Section_Div">
+						<button class="Section_Button" id="section_Button" onclick="sec_items()" >
+							<h3>
+        	        			<img src="../images/search.png"  width="50px" align="left"/>
+        	        				&nbsp;<sup> Mp3 </sup>
+        	        		</h3>
+        	        	</button>
+        	        	<div class="Section_Div-Content" id="section_btn_items">
+						    <a>Select Bit_rate</a>
+							<a href="#home">48kbps</a>
+							<a href="#home">64kbps</a>
+							<a href="#home">128kbps</a>
+							<a href="#home">320kbps</a>
+						</div>
+					</div>
+			    
+				<th>
+					<a target="_blank" href="../images/Logo (3).png">
+						<img class="Logo_Img" src="../images/Logo (3).png">
+					</a>
+				</th>
+				<th>
+					<input class="Search_Box" id="search_box" type="text" name="Music search" placeholder="Search your favourite groove.....">
+				</th>
+			</tr>
+		</table>
+		<table class="Navigation_Bar">
+						<!--class="Navigation_Bar used in css in file navigation -->
+			<link rel = "stylesheet" href ="../style/navigation.css" >
+							<!-- Linking & Using css file navigation -->
+				<script type="text/javascript">
+							/* using js file date-time_display */
+				</script>
+			<ul>
+				<li>
+					<a class="Home" href="#home">Home</a>
+				</li>
+				<li>
+					<a class="World" href="#world">About</a>
+				</li>
+				<li>
+					<a class="India" href="#india">Contact</a>
+				</li>
+				<li>
+					<a class="Sports" href="#sports">Sitemap</a>
+				</li>
+				<li>
+					<a class="Entertainment" href="#entertainment">Entertainment</a>
+				</li>
+				<li>
+					<a class="Sci_Tech" href="#sci-tech">Viral-videos</a>
+				</li>
+				<li>
+					<a class="Bussiness" href="#bussiness">Top-Mp3</a>
+				</li>
+				<li>
+					<a class="Job_Career" href="#jC">Punjabi</a>
+				</li>
+				<li>
+					<a class="Life_Style" href="#lifestyle">Holywood_Romance</a>
+				</li>
+				<li>
+					<a class="Videos" href="#videos">1080p Videos</a>
+				</li>
+
+				<li>
+					<a  class="All"  id="all"  ondblclick="s()"  onclick="click_Sec_btn()">All</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Dropdown</a>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</li>
+			</ul>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+
+
+    		<table class="Header_Bottom1" id="header_bottom1">
+							<!--class="Header_Bottom used in css file home_header_bottom -->
+				<link rel = "stylesheet" href ="../style/home_header_bottom1.css" >
+							<!-- Linking & Using css file home_header_bottom -->
+			
+			<tr>
+				<th>
+					<div class="Section_Div1">
+						<button class="Section_Button1" id="section_Button1" onclick="sec_items1() align="top"" >
+							<h3>
+        	        			<img src="../images/video.png"  width="50px" align="left"/>
+        	        				&nbsp;<sup> Video </sup>
+        	        		</h3>
+        	        	</button>
+        	        	<div class="Section_Div-Content1" id="section_btn_items1">
+						    <a>Select Bit_rate</a>
+							<a href="#home">48kbps</a>
+							<a href="#home">64kbps</a>
+							<a href="#home">128kbps</a>
+							<a href="#home">320kbps</a>
+						</div>
+					</div>
+			 </tr>
+		    </table>
+
+
+	</header>
+</body>
+</html>

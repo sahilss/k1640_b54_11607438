@@ -1,0 +1,55 @@
+		<table class="Navigation_Bar" >
+						<!--class="Navigation_Bar used in css in file navigation -->
+			<link rel = "stylesheet" href ="../style/navigation.css" >
+							<!-- Linking & Using css file navigation -->
+				<script type="text/javascript">
+							/* using js file date-time_display */
+				</script>
+			<ul>
+				<li>
+					<a class="Home" href="#home">Home</a>
+				</li>
+				<li>
+					<a class="World" href="#About">About</a>
+				</li>
+				<li>
+					<a class="India" href="#contact">Contact</a>
+				</li>
+				<li>
+					<a class="Sports" href="#sitemap">Sitemap</a>
+				</li>
+				<li>
+					<a class="Entertainment" href="#entertainment">Entertainment</a>
+				</li>
+				<li>
+					<a class="Sci_Tech" href="#viral-videos">Viral-videos</a>
+				</li>
+				<li>
+					<a class="Bussiness" href="#top-mp3">Top-Mp3</a>
+				</li>
+				<li>
+					<a class="Job_Career" href="#punjabi">Punjabi</a>
+				</li>
+				<li>
+					<a class="Life_Style" href="#hollywood_romance">Hollywood_Romance</a>
+				</li>
+				<li>
+					<a class="Videos" href="#1080p_videos">1080p Videos</a>
+				</li>
+
+				<li>
+					<a  class="All"  id="all"  ondblclick="s()"  onclick="click_Sec_btn()">All</a>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropbtn">Dropdown</a>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+					</div>
+				</li>
+				
+			</ul>
+			
+
+
+		 </table>
+	

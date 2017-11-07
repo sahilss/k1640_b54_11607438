@@ -1,0 +1,25 @@
+<table class="Header_Top" id="header_top_left"  align="left" >
+								<!--class="Header_Top" used in css file home_header_top-->
+			<tr>
+				<th>
+					<div class = "DateTime_Display">
+												<!--class = "DateTime_Display" used in css file home_header_top-->
+						<link rel = "stylesheet" href ="../style/home_header_top.css" >
+						<script type="text/javascript" src = "../jScript/date-time_display.js" > 
+						</script>
+						<div id ="clock_displa" class="D-T_On_Screen">
+						
+						<table class="Headd" id="headd">
+						    <link rel = "stylesheet" href ="../style/home_header_top.css">
+						        <tr>
+								    <th>
+						                    
+						                 										<!--id="clockDisplay" used in js file date-time_display-->
+									</th>
+								</tr>				
+						</table>
+						</div>
+					</div>
+				</th>
+			</tr>
+		</table>	

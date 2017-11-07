@@ -1,0 +1,745 @@
+/* Header Button ---------Start------------*/
+.Video4
+{
+	position:absolute;
+	bottom:-1300px;
+	left:800px;
+}
+.Video3
+{
+	position:absolute;
+	bottom:-1300px;
+	left:300px;
+	
+}
+.Funny {
+    background-color: #FF5050; /* light pink*/
+    border: none;
+    color: white;
+    padding: 15px 424px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;
+	bottom:-1045px;
+	right:0px;
+}
+
+.Funny123:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Footer_side
+{
+	position:absolute;
+	bottom:-1600px;
+	z-index:1;
+}
+.Dancer
+{
+	position:absolute;
+	bottom:-1450px;
+	right:-100px;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  position:absolute;
+  bottom:-1450px;
+  right:550px;
+  
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 2.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.Banner3
+{
+	position:absolute;
+	bottom:-1220px;
+	left:15px;
+}
+.Banner2
+{
+	position:absolute;
+	bottom:-1450px;
+	left:15px;
+}
+.Banner1
+{
+	position:absolute;
+    top:10px;
+	left:150px;
+	z-index:100;
+	cursor:pointer;
+}
+.Baklol
+{
+	position:absolute;
+	left:10px;
+	top:25px;
+}
+
+.Rights1
+{
+	font-family: times new roman;
+	
+}
+.Footer1
+{
+	position:absolute;
+	bottom:-1520px;
+	left:430px;
+	z-index:10;
+	color: white;
+}
+
+.Rights
+{
+	font-family: times new roman;
+	
+}
+.Footer
+{
+	position:absolute;
+	bottom:-1600px;
+	left:500px;
+	z-index:10;
+	color: white;
+}
+.buttonfoot
+{
+	background-color: darkorange; /* Orange */
+    border: none;
+    color: white;
+    padding: 70px 630px;
+    text-align: LEFT;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	left:0px;
+	bottom:-1600px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	
+}
+.bbAudio3
+{
+	position:absolute;
+	right:520px;
+	bottom:-50px;
+}
+
+.bAudio3
+{
+	position:absolute;
+	right:470px;
+	bottom:-50px;
+}
+
+.bAudio2
+{
+	position:absolute;
+	right:510px;
+	bottom:70px;
+}
+.bAudio1
+{
+	position:absolute;
+	right:530px;
+	bottom:190px;
+}
+
+.Albummpos
+{
+	position:absolute;
+	bottom:-120px;
+}
+.Albumm
+{
+	position:absolute;
+	bottom:-50px;
+	left:20px;
+	cursor:pointer;
+}
+.Albumm1:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album2
+{
+	position:absolute;
+	bottom:-50px;
+	left:240px;
+	cursor:pointer;
+}
+.Album20:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album3
+{
+	position:absolute;
+	bottom:-50px;
+	left:460px;
+	cursor:pointer;
+}
+.Album30:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album4
+{
+	position:absolute;
+	bottom:-50px;
+	left:680px;
+	cursor:pointer;
+}
+.Album40:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album5
+{
+	position:absolute;
+	bottom:-50px;
+	left:900px;
+	cursor:pointer;
+}
+.Album50:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album6
+{
+	position:absolute;
+	bottom:-320px;
+	left:20px;
+	cursor:pointer;
+}
+.Album60:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album7
+{
+	position:absolute;
+	bottom:-320px;
+	left:240px;
+	cursor:pointer;
+}
+.Album70:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album8
+{
+	position:absolute;
+	bottom:-320px;
+	left:460px;
+	cursor:pointer;
+}
+.Album80:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album9
+{
+	position:absolute;
+	bottom:-320px;
+	left:680px;
+	cursor:pointer;
+}
+.Album90:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album10
+{
+	position:absolute;
+	bottom:-320px;
+	left:900px;
+	cursor:pointer;
+}
+.Album100:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album11
+{
+	position:absolute;
+	bottom:-590px;
+	left:20px;
+	cursor:pointer;
+}
+.Album110:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.Album12
+{
+	position:absolute;
+	bottom:-590px;
+	left:240px;
+	cursor:pointer;
+}
+.Album120:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.55),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.Textarea
+ {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.Form
+{
+	position:absolute;
+    bottom:-590px;
+	right:50px;
+	text-align:LEFT;
+}
+.Hrlinee
+{
+	position:absolute;
+	bottom:-1000px;
+}
+.Hrline
+{
+	position:absolute;
+	bottom:-660px;
+}
+.Mark
+{
+	position:absolute;
+	left:0px;
+	width:600px;
+	bottom:-940px;
+	cursor:pointer;
+	
+}
+.Markk
+{
+	position:absolute;
+	right:0px;
+	width:600px;
+	bottom:-940px;
+	cursor:pointer;
+	
+}
+.button001 {
+    background-color: #f4511e; /* Orange */
+    border: none;
+    color: white;
+    padding: 15px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	left:0px;
+	bottom:100px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	z-index:5;
+             }
+			 
+.button211 {
+    background-color: #5DADE2; /* Orange */
+    border: none;
+    color: white;
+    padding: 10px 210px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-left:auto;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+             }
+
+
+.Newbutton1
+{
+	position:absolute;
+	right:0px;
+}
+.Newbutton
+{
+	position:absolute;
+	right:400px;
+}
+.dropbtn 
+{
+    background-color: #f4511e;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:300px;
+	border-radius:10px;
+}
+.dropbtn1
+{
+    background-color: #f4511e;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:300px;
+	border-radius:10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: GREY;
+}
+.dropdown:hover .dropbtn1
+{
+	background-color: GREY;
+}
+
+
+.button1150
+{
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position:absolute;
+  right:0px;
+  bottom:320px;
+}
+
+.button1150 span:after 
+{
+  content: ;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1150:hover span {
+  padding-right: 25px;
+}
+
+.button1150:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1151
+{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position:absolute;
+  right: 400px;
+  bottom: 320px;
+}
+
+.button1151 span:after 
+{
+  content: ;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1151:hover span {
+  padding-right: 25px;
+}
+
+.button1151:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.Jaku
+{
+	position:absolute;
+	bottom:-320px;
+	right:450px;
+}
+.Jaku1
+{
+	position:absolute;
+	bottom:-320px;
+	right:30px;
+}
+.Video1
+{
+	position:absolute;
+	bottom:-520px;
+	right:0px;
+	
+}
+
+.Video2
+{
+	position:absolute;
+	bottom:-520px;
+	right:380px;
+	
+	
+}
+.Audio1
+{
+	position:absolute;
+	bottom:-10px;
+}
+.Audio2
+{
+	position:absolute;
+	bottom:-120px;
+	
+}
+.Audio3
+{
+	position:absolute;
+	bottom:-230px;
+	
+}
+.Audio4
+{
+	position:absolute;
+	bottom:-340px;
+}
+.Audio5
+{
+	position:absolute;
+	bottom:-455px;
+}
+.Audio6
+{
+	position:absolute;
+	bottom:-565px;
+}
+.Headd
+{
+	postion:absolute;
+	bottom:0px;
+	padding:0px;
+}
+.Slide_Show
+{
+	position:absolute;
+	bottom:-200px;
+	right: 0px;
+}
+
+.Slide_Show1
+{
+	position:absolute;
+	bottom:-200px;
+	left:550px;
+	right: 0px;
+}
+
+.Section_Button
+{
+    background-color: #d9d9d9;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:10px;
+    text-align: left;
+    vertical-align: middle;
+    width: 255px;
+    height: 100px;
+    background-color: lightGrey; 
+    color: black; 
+    border: 3px;
+}
+.Section_Button:hover 
+{
+    background-color: #f4511e;
+    box-shadow: 0 0px #99b3ff;
+}
+.Section_Button:active
+{
+    background-color: #ffffff;
+    box-shadow: 0 0px #808080;
+    transform: translateY(4px);
+}
+/*Section Button Items Display setting---------------Start----------------*/
+
+.Section_Button:focus
+{
+    background-color: #f4511e;
+    box-shadow: 0 4px #99b3ff;
+
+}
+.Section_Div
+{
+    position: absolute;
+	bottom: 300px;
+	right: 450px;
+    display: block;
+}
+.Section_Div-Content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius:10px;
+    min-width: 250px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Section_Div-Content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+.Section_Div a:hover
+{
+    background-color: #a6a6a6;
+}
+
+.show
+{
+    display:block;
+}
+
+
+/*Section Button Items Display setting---------------Ends----------------*/
+
+.Logo_Img
+{
+	
+     width: 100px;
+     height: 100px;
+     border-radius: 10px;
+	 
+	 
+}
+.Search_Box
+{
+    width: 600px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('../images/search1.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	position: absolute;
+	right: 0px;
+	bottom: 450px;
+}

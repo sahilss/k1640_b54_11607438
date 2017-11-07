@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Clapsol_Music</title>
+	
+	<link rel="icon" type="image/jpg" href="../images/Title_icon.PNG" />
+	
+	<style type="text/css"> 
+	
+	html 
+{
+  min-width: 100%;
+  min-height: 100%;
+ 
+  background-position: top center;
+  
+}
+
+body 
+{
+  
+  height: 2054px;
+  
+}
+	
+	
+	
+	
+	ul 
+	
+	{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+	
+	
+	
+	
+	
+    .mySlides {display:none;}
+	 
+
+
+
+/* yaha se title button start hai */
+
+	 
+	.button222 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	right:408px;
+	bottom:100px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+             }
+
+
+    .button333:hover
+	{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+	
+	
+	
+	.button444 
+	{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 550px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	left:15px;
+	bottom:320px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+             }
+
+
+    .button555:hover
+	{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+	
+	
+	.button666 {
+    background-color: #6C3483; /* Orange */
+    border: none;
+    color: white;
+    padding: 15px 575px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	left:0px;
+	bottom:-650px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+             }
+	
+	
+	.button101010 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius:5px;
+}
+
+.button111111:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.button888 {
+    background-color: #f4511e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius:5px;
+}
+
+.button999:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.button1212 {
+    background-color: #FF5050; /* light pink*/
+    border: none;
+    color: white;
+    padding: 15px 263px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;
+	bottom:-265px;
+	right:0px;
+}
+
+.button1313:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+/* video ki download button*/
+
+
+
+.button_d1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 123px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	position:absolute;
+	left:0px;
+}
+
+.button_d11 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+
+
+.button_d11:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.button_d2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 123px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	position:absolute;
+	left:0px;
+}
+
+.button_d22 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+
+
+.button_d22:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
+
+/*Idhar se Audio ki download buttons hai */
+
+.butto1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.butto2 {
+    background-color:#008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+
+.butto3 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.butto4 {
+    background-color:#008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+
+
+
+.butto5 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.butto6 {
+    background-color:#008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+
+
+.butto7 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+.butto8 {
+    background-color:#008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+
+
+/*Styling Part */
+
+	
+
+ </style>
+ 
+	<script type="text/javascript">		</script>
+
+    <body onload="dateTimeDisplay();">
+	 <header>
+ 
+			
+		<table class="Header_Top" id="header_top_right">
+								<!--class="Header_Top" used in css file home_header_top -->
+				<link rel = "stylesheet" href ="../style/home_header_top.css" >
+				
+				
+			<tr>
+			    
+				<th>
+					<a target="_blank" href="https://www.youtube.com/user/TheNewsTime">
+						<img src="../images/yt_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://plus.google.com/TheNewsTime">
+						<img src="../images/g+_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://twitter.com/TheNewsTime">
+						<img src="../images/twt_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+					<a target="_blank" href="https://www.facebook.com/TheNewsTime">
+						<img src="../images/fb_icon.png" width="30px">
+					</a>
+				</th>
+				<th>
+				    <button class="button888 button999">Subcribe Now</button>
+					
+				</th>
+				<th>
+					<a href="subscribe.html"><button class="button101010 button111111" >Sign In</button></a>
+					
+				</th>
+			</tr>
+		</table>
+		
+		
+		
+		<table class="Header_Bottom" id="header_bottom"  >
+							<!--class="Header_Bottom used in css file home_header_bottom -->
+				<link rel = "stylesheet" href ="../style/home_header_bottom.css" >
+							<!-- Linking & Using css file home_header_bottom -->
+			<script type="text/javascript" src = "../jScript/header_navigation.js">
+							/* using js file date-time_display */
+			</script>
+			<tr>
+				
+				
+				<th>
+				  
+					<a target="_blank" href="../images/Logo (3).png">
+					 
+						<img class="Logo_Img" src="../images/Logo (3).png">
+					</a>
+				</th>
+				
+				<th>
+					<input class="Search_Box" id="search_box" type="text" name="Music search" placeholder="Search your favourite groove.....">
+				</th>
+			</tr>
+		</table>
+		<br/>
+		<br/>
+		
+        
+		
+				<table class="Footer" id="footer">
+		  <link rel="stylesheet" href="../style/home_header_bottom.css">
+		  <tr>
+		      <th><h3 class="Rights" id="rights">All Rights Reserved &copy; clapsol.in&nbsp;2016</h3></th>
+		  </tr>
+		</table>
+		
+		<table class="Footer1" id="footer1">
+		  <link rel="stylesheet" href="../style/home_header_bottom.css">
+		  <tr>
+		      <th><a href="home.html"><h3  class="Rights1" id="rights1">Home</h3></a></th>
+			  <th><h3 class="Rights2" id="rights2"><a href="home.html">Contact</a></h3></th>
+			  <th><h3 class="Rights1" id="rights1"><a href="home.html">Advertise</a></h3></th>
+			  <th><h3 class="Rights1" id="rights1"><a href="home.html">Chat</a></h3></th>
+			  <th><h3 class="Rights1" id="rights1"><a href="bollywood.html">Music Mania</a></h3></th>
+			  <th><h3 class="Rights1" id="rights1"><a href="home.html">Sitemap</a></h3></th>
+		  </tr>
+		</table>
+		
+		
+		
+		
+		
+		
+	    <div>
+		   <link rel="stylsheet" href="../style/home_header_bottom.css">
+		  <button class="buttonfoot buttonfoot1"></button>
+		</div>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+       
+
+	   
+
+   
+        <a href="bollywood.html"><button class="button444 button555">Bollywood Music  </button> </a>
+        <button class="button666 button777">
+		                        <div align="left">
+        	        			<img src="../images/spt1.jpg"  width="20px" align="left">
+        	        				&nbsp; HD-Videos
+        	        		    
+		                        </img>
+								</div>
+		</button>
+		
+		
+
+
+
+		<ul>
+		
+		     
+             <li><a class="active" href="home.html">Home</a></li>
+	
+             <li><a href="#news">News</a></li>
+             <li><a href="#contact">Contact</a></li>
+             <li><a href="#about">About</a></li>
+			 <li>
+					<a class="Entertainment" href="#entertainment">Entertainment</a>
+				</li>
+				<li>
+					<a class="Sci_Tech" href="#viral-videos">Viral-videos</a>
+				</li>
+				<li>
+					<a class="Bussiness" href="#top-mp3">Top-Mp3</a>
+				</li>
+				<li>
+					<a class="Job_Career" href="#punjabi">Punjabi</a>
+				</li>
+				<li>
+					<a class="Life_Style" href="#hollywood_romance">Hollywood_Romance</a>
+				</li>
+				<li>
+					<a class="Videos" href="#1080p_videos">1080p Videos</a>
+				</li>
+				
+				<li>
+					<a class="Sitemap" href="#site-map">Sitemap</a>
+				</li>
+				<li>
+					<a class="Bollywood_Gossips" href="#bollywood-gossips">Bollywood Gossips</a>
+				</li>
+				
+        </ul>
+		
+		   <br/>
+		   <br/>
+		   <br/>
+		<h3 style="position:absolute; left:20px;">Sort By Movies</h3>
+
+	
+
+	
+	
+	
+
+
+	
+		
+<table class="Albummpos Albumm1pos" id="album1">
+		     
+			  <link rel = "stylesheet1" href ="../style/home_header_bottom.css" >
+			  
+			<tr>
+		        <th> 
+						<div style="max-width:250px">
+                            <img src="../music/wallpaper/gang2.jpg" style="width:100%">
+							<footer>
+							 GangOf WasseyPur One 2 Man Dowload Music (360kbps)
+							</footer>
+                        </div>
+						
+				</th>
+			</tr>
+</table>
+
+
+
+<table class="bAudio1" id="baudio1">
+		
+		   
+            <link rel = "stylesheet" href ="../style/home_header_bottom.css" >
+			 
+		<tr>
+			 <th align="left">01 - Catch Me If you can-Title Track (320 Kbps) Clapsol_Music
+			 
+             <div>
+		       
+		              <audio controls>
+                          <source src="../music/catch me.mp3" type="audio/mpeg">
+                             Your browser does not support the audio element.
+                       </audio>
+					         <footer>
+						        <a href="../music/catch me.mp3" download="catch me if you can">
+								      <button class="butto3 butto4">Download</button>
+						        </a>
+						     </footer>
+					   
+		     </div>
+			 
+			 </th>
+		
+		</tr>
+</table>
+
+
+
+<table class="bAudio2" id="baudio2">
+		
+		   
+            <link rel = "stylesheet" href = "../style/home_header_bottom.css" >
+			 
+		<tr>
+			 <th align="left">02 - Ishara Hua hai Tere S - Title Track (320 Kbps) Clapsol_Music
+			 
+             <div>
+		       
+		              <audio controls>
+                          <source src="../music/ishara.mp3" type="audio/mpeg">
+                             Your browser does not support the audio element.
+                       </audio>
+					         <footer>
+						        <a href="../music/ishara.mp3" download="ishara tere pyaar ka">
+								      <button class="butto3 butto4">Download</button>
+						        </a>
+						     </footer>
+					   
+		     </div>
+			 
+			 </th>
+		
+		</tr>
+</table>
+
+
+
+
+
+<table class="bbAudio3" id="bbaudio3">
+		
+		   
+            <link rel = "stylesheet" href = "../style/home_header_bottom.css" >
+			 
+		<tr>
+			 <th align="left">03 -O Janiya Kar Gaye h -Title Track (320 Kbps) Clapsol_Music
+			 
+             <div>
+		       
+		              <audio controls>
+                          <source src="../music/o janiya.mp3" type="audio/mpeg">
+                             Your browser does not support the audio element.
+                       </audio>
+
+					         <footer>
+						        <a href="../music/o janiya.mp3" download="o janiya">
+								      <button class="butto3 butto4">Download</button>
+						        </a>
+						     </footer>
+					   
+		     </div>
+			 
+			 </th>
+		
+		</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+		
+		<table class="Mark" id="mark">
+		 
+		  <tr> 
+		   <th>
+		    <div class="Mark1" id="mark1">
+		      <link rel="stylesheet" href="../style/home_header_bottom.css">
+			     
+				 <marquee width="100%">
+				 <img src="../marquee/david.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/raees.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/raman.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/hate.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/pk.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/singham.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/kanchi.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/sholay.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee/kick.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../images/bolly/meraishq.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../images/bolly/mohan.jpg" width="200px" height="250px"/>
+				 
+				 
+				 </marquee> 
+		         
+				 <marquee>Ariana Grande_Problem(HD) &nbsp; Taylor Swift_BlankSpace(HD) &nbsp; Charlie XCX_Sucker(HD) &nbsp; 
+				  &nbsp; &nbsp; &nbsp; &nbsp; ChainSmokers Closer(HD) &nbsp;
+				 &nbsp; &nbsp; Hands_all Over_Maroon(HD) &nbsp; &nbsp; Iggy_Azalea NewClassic(HD) 
+				 &nbsp; &nbsp; Charlie Puth_Pretty(HD)
+				 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Iggey Azalea_Team_Charlie(HD) &nbsp;&nbsp; katy_Perry Peacock (HD) &nbsp; Bad_Lan_Bass ft.Hasley(HD)
+				 &nbsp; Teenage_Dream KatyPerry(HD)
+				 </marquee>
+				 
+			
+		    </div>
+		   </th>
+		  </tr>
+		 </table>
+		
+	    <table class="Markk" id="markk">
+		 
+		  <tr> 
+		   <th>
+		    <div class="Markk1" id="markk1">
+		      <link rel="stylesheet" href="../style/home_header_bottom.css">
+			     
+		         <marquee width="100%">
+				 <img src="../marquee1/ariana.png" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/blank.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/charli1.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/closer.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/hands.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/iggy.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/pretty.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/team.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/katy.png" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/tum.jpg" width="200px" height="250px"/>
+				 &nbsp;
+				 &nbsp;
+				 <img src="../marquee1/teen.jpg" width="200px" height="250px"/>
+				 </marquee>
+				 <marquee>Ariana Grande_Problem(HD) &nbsp; Taylor Swift_BlankSpace(HD) &nbsp; Charlie XCX_Sucker(HD) &nbsp; 
+				  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ChainSmokers Closer(HD) &nbsp;
+				 &nbsp; &nbsp; Hands_all Over_Maroon(HD) &nbsp; &nbsp; Iggy_Azalea NewClassic(HD) 
+				 &nbsp; &nbsp; Charlie Puth_Pretty(HD)
+				 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Iggey Azalea_Team_Charlie(HD) &nbsp;&nbsp; katy_Perry Peacock (HD) &nbsp; Bad_Lan_Bass ft.Hasley(HD)
+				 &nbsp; Teenage_Dream KatyPerry(HD)
+				 </marquee>
+		    </div>
+		   </th>
+		  </tr>
+		 </table>
+		 
+		<table class="Hrline" id="hrline" width="100%">	
+		 <div>
+              <tr>
+                <th>			  
+                   <hr>
+				</th>
+			  </tr>
+		   </div>
+        </table>	
+        
+        <table class="Hrlinee" id="hrlinee" width="100%">	
+		 <div>
+              <tr>
+                <th>			  
+                   <hr>
+				</th>
+			  </tr>
+		   </div>
+        </table>		
+		
+		
+
+	 </header>
+	</body>
+
+</html>
